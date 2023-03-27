@@ -92,7 +92,18 @@ section.img > p {
 }
 #img01 {
     background-image: url(img/a1.jpg);
-    background-position: right center;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+}
+.desc {
+    width: 170px;
+    height: 270px;
+    margin: 30px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: whitesmoke;
 }
 
 footer {
