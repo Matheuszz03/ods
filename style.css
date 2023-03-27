@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    min-height: 100%;
+}
+
+body {
+    background-color: #0A97D9;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #0A97D9, #0a6d9b);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.336);
+}
+
+header p {
+    font-size: 1.2em;
+    margin: auto;
+    padding-bottom: 40px;
+    padding: 0px 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.356);
+}
+
+nav {
+    background-color: #0a6d9b;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.301);
+    padding: 10px;
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+nav > a:hover {
+    background-color: #0badf8;
+    color: #0a6d9b;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
+    border-radius: 0px 0px 10px 10px;
+}
+main h1 {
+    color: #084b69;
+    font-size: 1.4em;
+    text-align: center;
+}
+main h2 {
+    background-image: linear-gradient(to right, #0a6d9b, #0A97D9, transparent);
+    color: #f6fcff;
+}
+main p {
+    margin: 15px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+main strong {
+    color: #084b69;
+}
+
+section.img {
+    color: white;
+    box-shadow: inset 6px 5px 13px 0px rgba(0, 0, 0, 0.39);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.img > p {
+    background-color: rgba(0, 0, 0, 0.479);
+}
+#img01 {
+    background-image: url(img/a1.jpg);
+    background-position: right center;
+}
+
+footer {
+    text-align: center;
+    background-color: #0a6d9b;
+    color: white;
+    padding: 5px;
+    font-size: .8em;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: #084b69;
+}
